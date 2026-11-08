@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Market data is the vendor's and is not redistributed (see README, "Data")
+data/
+*.zip
+
+# Local environment and editors
+.env
+.DS_Store
+.idea/
+.vscode/
